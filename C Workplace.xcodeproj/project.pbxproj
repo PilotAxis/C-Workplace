@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DAB881212B41744B00117D50 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DAB881202B41744B00117D50 /* main.c */; };
+		DAB881292B41746F00117D50 /* hello_world.c in Sources */ = {isa = PBXBuildFile; fileRef = DAB881282B41746F00117D50 /* hello_world.c */; };
+		DAB8812C2B4174A300117D50 /* add_number.c in Sources */ = {isa = PBXBuildFile; fileRef = DAB8812B2B4174A300117D50 /* add_number.c */; };
+		DAB8812F2B41750900117D50 /* area_of_circle.c in Sources */ = {isa = PBXBuildFile; fileRef = DAB8812E2B41750900117D50 /* area_of_circle.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,12 @@
 
 /* Begin PBXFileReference section */
 		DAB8811D2B41744B00117D50 /* C Workplace */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C Workplace"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAB881202B41744B00117D50 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		DAB881272B41746F00117D50 /* hello_world.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hello_world.h; sourceTree = "<group>"; };
+		DAB881282B41746F00117D50 /* hello_world.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hello_world.c; sourceTree = "<group>"; };
+		DAB8812A2B4174A300117D50 /* add_number.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = add_number.h; sourceTree = "<group>"; };
+		DAB8812B2B4174A300117D50 /* add_number.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = add_number.c; sourceTree = "<group>"; };
+		DAB8812D2B41750900117D50 /* area_of_circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = area_of_circle.h; sourceTree = "<group>"; };
+		DAB8812E2B41750900117D50 /* area_of_circle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = area_of_circle.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +64,12 @@
 		DAB8811F2B41744B00117D50 /* C Workplace */ = {
 			isa = PBXGroup;
 			children = (
-				DAB881202B41744B00117D50 /* main.c */,
+				DAB881272B41746F00117D50 /* hello_world.h */,
+				DAB881282B41746F00117D50 /* hello_world.c */,
+				DAB8812A2B4174A300117D50 /* add_number.h */,
+				DAB8812B2B4174A300117D50 /* add_number.c */,
+				DAB8812D2B41750900117D50 /* area_of_circle.h */,
+				DAB8812E2B41750900117D50 /* area_of_circle.c */,
 			);
 			path = "C Workplace";
 			sourceTree = "<group>";
@@ -119,7 +131,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAB881212B41744B00117D50 /* main.c in Sources */,
+				DAB8812C2B4174A300117D50 /* add_number.c in Sources */,
+				DAB8812F2B41750900117D50 /* area_of_circle.c in Sources */,
+				DAB881292B41746F00117D50 /* hello_world.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
