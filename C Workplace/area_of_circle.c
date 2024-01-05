@@ -5,7 +5,7 @@
 //  Created by Mohammed Ahmed Majid on 31/12/23.
 //
 
-/*#include "area_of_circle.h"
+#include "area_of_circle.h"
 
 int main(void)
 {
@@ -15,4 +15,3 @@ int main(void)
     area = 3.14*radius*radius;
     printf("Area of the circle : %f\n", area);
 }
-*/
