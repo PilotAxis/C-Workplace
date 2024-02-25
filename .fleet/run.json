@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "type": "command",
+            "name": "run",
+            "dependsOn": ["build"],
+            "program": "$PROJECT_DIR$/C Workplace/armstrong.cpp",
+        },
+        {
+            "type": "command",
+            "name": "build",
+            "program": "/usr/bin/g++",
+            "args": ["$PROJECT_DIR$/C Workplace/armstrong.cpp", "-std=c++17", "-pthread", "-O2", "-o", "solution"],
+
+        },
+    ]
+}

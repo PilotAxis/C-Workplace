@@ -1,4 +1,5 @@
 #include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main(void) {
@@ -7,8 +8,11 @@ int main(void) {
     freopen("output.txt", "w", stdout);
     #endif
 
-    int a, b;
-    cin >> a >> b;
-    cout << "Sum is :" << a + b;
-    return 0;
+    int n;
+    cin >> n;
+    for (int i = 1; i <= n; i++) {
+        if (n % i == 0) {
+            cout << i << " ";
+        }
+    }
 }
